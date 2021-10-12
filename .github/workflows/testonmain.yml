@@ -10,4 +10,4 @@ jobs:
   - name: Test
     uses: skx/github-action-tester@master
     with:
-	script: .github/tests/dontrun-tests.sh
+       script: .github/tests/dontrun-tests.sh
