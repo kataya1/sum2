@@ -9,3 +9,5 @@ jobs:
   - uses: actions/checkout@master
   - name: Test
     uses: skx/github-action-tester@master
+    with:
+	script: .github/tests/dontrun-tests.sh
